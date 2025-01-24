@@ -1,7 +1,9 @@
 {
-    "python.testing.pytestArgs": [
-        "test", "--capture=tee-sys"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+  "python.testing.pytestArgs": ["test", "--capture=tee-sys"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "mypy-type-checker.args": ["--max-line-length=150"],
+  "autopep8.args": ["--max-line-length=150"],
+  "editor.formatOnSave": false,
+  "files.trimTrailingWhitespace": false
 }
